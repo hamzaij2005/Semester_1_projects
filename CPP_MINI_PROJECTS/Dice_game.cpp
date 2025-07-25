@@ -48,12 +48,14 @@ int main() {
 
     cout << "\nFinal Score - Player 1: " << p1Score << " | Player 2: " << p2Score << endl;
 
-    if (p1Score > p2Score)
+    if (p1Score > p2Score){
         cout << "Player 1 is the overall winner!" << endl;
-    else if (p2Score > p1Score)
+    }
+    else if (p2Score > p1Score){
         cout << "Player 2 is the overall winner!" << endl;
-    else
+    }
+    else{
         cout << "The game ended in a draw!" << endl;
-
+    }
     return 0;
 }
