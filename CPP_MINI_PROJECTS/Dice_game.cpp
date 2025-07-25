@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
-
+// Function to roll a dice and return the result
 int rollDice() {
     return rand() % 6 + 1; // Returns a number between 1 and 6
 }
