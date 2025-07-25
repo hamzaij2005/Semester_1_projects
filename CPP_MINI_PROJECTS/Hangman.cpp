@@ -24,9 +24,9 @@ bool isWordGuessed(string word, string guessed) {
 }
 
 int main() {
-    string wordList[] = {"apple", "banana", "cherry", "grape", "mango"};
+    string wordList[] = {"apple","carrot", "banana", "cherry", "grape", "mango"};
     srand(time(0));
-    string word = wordList[rand() % 5]; // Random word
+    string word = wordList[rand() % 6]; // Random word
     string guessed = "";
     int maxTries = 6;
     int wrongGuesses = 0;
